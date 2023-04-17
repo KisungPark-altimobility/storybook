@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"Avatar",{enumerable:true,get:function(){return _avatar.default}});var _avatar=_interopRequireDefault(require("./Avatar"));function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}

@@ -1,0 +1,26 @@
+{
+    "jsc": {
+        "parser": {
+            "syntax": "typescript",
+            "tsx": true
+        },
+        "target": "es5",
+        "loose": false,
+        "minify": {
+            "compress": false,
+            "mangle": false
+        },
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "module": {
+        "type": "commonjs",
+        "strict": false,
+        "strictMode": true,
+        "lazy": false,
+        "noInterop": false
+    },
+    "exclude": ["app", "stories", ".stories.ts", ".test.tsx"],
+    "minify": true
+}
