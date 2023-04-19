@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"Note",{enumerable:true,get:function(){return _note.default}});var _note=_interopRequireDefault(require("./Note"));function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}
+export{default as Note}from"./Note"

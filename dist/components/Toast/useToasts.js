@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.default=useToasts;var _react=require("react");var _toastsProvider=require("./ToastsProvider");function useToasts(){return(0,_react).useContext(_toastsProvider.ToastsContext)}
+import{useContext}from"react";import{ToastsContext}from"./ToastsProvider";export default function useToasts(){return useContext(ToastsContext)}

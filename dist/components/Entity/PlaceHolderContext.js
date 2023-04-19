@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _react=require("react");var PlaceHolderContext=(0,_react).createContext(true);var _default=PlaceHolderContext;exports.default=_default
+import{createContext}from"react";var PlaceHolderContext=createContext(true);export default PlaceHolderContext

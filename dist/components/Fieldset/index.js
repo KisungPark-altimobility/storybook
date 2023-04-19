@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"fs",{enumerable:true,get:function(){return _fieldset.default}});var _fieldset=_interopRequireDefault(require("./Fieldset"));function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}
+export{default as fs}from"./Fieldset"

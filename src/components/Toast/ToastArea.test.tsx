@@ -11,11 +11,8 @@ import useToasts from "./useToasts";
 jest.mock("./useToasts");
 const useToastsMock = mocked(useToasts);
 
-const ToastContainerFn = jest.fn(() => <div>test</div>);
-jest.mock("./ToastContainer", () => ({
-    __esModule: true,
-    ToastContainer: ToastContainerFn,
-}));
+jest.mock("./ToastContainer");
+const ToastContainerMock = mocked(ToastContainer);
 
 jest.mock("react-aria");
 const useHoverMock = mocked(useHover);
@@ -25,6 +22,8 @@ jest.mock("components/Button", () => ({
     __esModule: true,
     Button: (props) => <button {...props} />,
 }));
+
+const ToastContainerFn = jest.fn(() => <div>test</div>);
 
 describe("ToastArea", () => {
     beforeEach(() => {
@@ -41,6 +40,7 @@ describe("ToastArea", () => {
         useToastsMock.mockImplementation(() =>
             jest.requireActual("./useToasts")
         );
+        ToastContainerMock.mockImplementation(ToastContainerFn as any);
     });
 
     afterEach(() => {

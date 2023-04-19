@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"Badge",{enumerable:true,get:function(){return _badge.default}});var _badge=_interopRequireDefault(require("./Badge"));function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}
+export{default as Badge}from"./Badge"

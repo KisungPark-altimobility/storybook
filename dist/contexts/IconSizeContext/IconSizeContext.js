@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _react=require("react");var ThemeContext=(0,_react).createContext({size:24});var _default=ThemeContext;exports.default=_default
+import{createContext}from"react";var ThemeContext=createContext({size:24});export default ThemeContext

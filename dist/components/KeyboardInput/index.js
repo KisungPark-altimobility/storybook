@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"KBD",{enumerable:true,get:function(){return _kbd.default}});var _kbd=_interopRequireDefault(require("./kbd"));function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}
+export{default as KBD}from"./kbd"

@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.useDepth=exports.DepthContextProvider=void 0;var _react=require("react");var DepthContext=(0,_react).createContext(0);var DepthContextProvider=DepthContext.Provider;exports.DepthContextProvider=DepthContextProvider;var useDepth=function(){return(0,_react).useContext(DepthContext)};exports.useDepth=useDepth
+import{createContext,useContext}from"react";var DepthContext=createContext(0);export var DepthContextProvider=DepthContext.Provider;export var useDepth=function(){return useContext(DepthContext)}

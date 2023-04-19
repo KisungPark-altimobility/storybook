@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _modal=require("./Modal");var _default={Modal:_modal.Modal,Body:_modal.Body,Header:_modal.Header,Title:_modal.Title,Subtitle:_modal.Subtitle,Actions:_modal.Actions,Action:_modal.Action};exports.default=_default
+import{Action,Actions,Body,Header,Modal,Subtitle,Title}from"./Modal";export default{Modal:Modal,Body:Body,Header:Header,Title:Title,Subtitle:Subtitle,Actions:Actions,Action:Action}

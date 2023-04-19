@@ -5,7 +5,7 @@
         "emitDeclarationOnly": true,
         "baseUrl": "./src",
         "outDir": "dist",
-        "module": "CommonJS",
+        "module": "ES6",
         "types": ["node", "jest", "@testing-library/jest-dom"]
     },
     "exclude": [

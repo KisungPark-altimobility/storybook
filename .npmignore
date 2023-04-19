@@ -1,4 +1,10 @@
 node_modules
+.next
+.storybook
+.vscode
+src
+next-env.d.ts
+next.config.js
 *.test.ts
 *.test.tsx
 *.text.ts.snap
@@ -6,11 +12,13 @@ node_modules
 __snapshots__
 jest.config.ts
 jest.setup.ts
+.eslintrc.json
 .swcrc
 .babelrc
 .gitignore
 # --
 docs
+tsconfig.build.tsbuildinfo
 tsconfig.tsbuildinfo
 tsconfig.json
 tsconfig.build.json
