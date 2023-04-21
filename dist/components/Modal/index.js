@@ -1,1 +1,0 @@
-import{Action,Actions,Body,Header,Modal,Subtitle,Title}from"./Modal";export default{Modal:Modal,Body:Body,Header:Header,Title:Title,Subtitle:Subtitle,Actions:Actions,Action:Action}

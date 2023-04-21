@@ -1,1 +1,0 @@
-import{ThemeProvider,useTheme}from"next-themes";var STORAGE_KEY="mode";export var ThemeContextProvider=function(param){var children=param.children;return React.createElement(ThemeProvider,{storageKey:STORAGE_KEY,attribute:"class",enableSystem:true,value:{dark:"dark-theme",system:"system",light:"light-theme"}},children)};export{useTheme}

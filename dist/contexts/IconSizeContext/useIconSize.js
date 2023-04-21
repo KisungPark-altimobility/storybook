@@ -1,1 +1,0 @@
-import{useContext}from"react";import{IconSizeContext}from"./index";var useIconSize=function(){return useContext(IconSizeContext)};export default useIconSize

@@ -1,1 +1,0 @@
-import{createContext,useContext}from"react";var DepthContext=createContext(0);export var DepthContextProvider=DepthContext.Provider;export var useDepth=function(){return useContext(DepthContext)}

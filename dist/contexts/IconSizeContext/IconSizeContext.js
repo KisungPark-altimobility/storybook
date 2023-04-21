@@ -1,1 +1,0 @@
-import{createContext}from"react";var ThemeContext=createContext({size:24});export default ThemeContext

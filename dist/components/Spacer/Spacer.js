@@ -1,1 +1,0 @@
-import React from"react";import styles from"./spacer.module.css";var Spacer=function(param){var y=param.y,x=param.x;var style={};if(y)style.marginTop=24*y-1;if(x)style.marginLeft=24*x-1;return React.createElement("span",{"aria-hidden":"true",className:styles["geist-spacer"],style:style})};export default Spacer
