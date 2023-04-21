@@ -11,5 +11,5 @@ interface ToastContainerProps extends IToast {
     text: string;
     id: string;
 }
-declare const ToastContainer: React.ComponentType<ToastContainerProps>;
+declare const ToastContainer: React.FunctionComponent<ToastContainerProps>;
 export default ToastContainer;
